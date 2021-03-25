@@ -124,7 +124,7 @@ client.on("ready", () => {
 
 //  if(role.author.bot) return;
 
- // bot hatasi
+
 client.on("roleDelete", async role => {
   
   let log = await database.get(`log.${role.guild.id}`)
@@ -149,7 +149,7 @@ client.on("roleCreate", async role => {
     client.channels.cache.get(log).send(rolembed)
   }
 })
-// sadece thealoq sildi diyor
+
 client.on("messageDelete", async message => {
   if(message.author.bot) return;
   let log = await database.get(`log.${message.guild.id}`)
