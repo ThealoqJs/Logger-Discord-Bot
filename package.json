@@ -1,0 +1,17 @@
+{
+  "name": "thealoq",
+  "version": "0.0.1",
+  "description": "Thealoq",
+  "main": "Thealoq.js",
+  "scripts": {
+    "test": "node Thealoq.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "croxydb": "^0.0.7",
+    "discord-logs": "^1.9.0",
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1"
+  }
+}
